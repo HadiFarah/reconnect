@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.logo-container {
+  text-decoration: none;
+  color: #333;
+}
+
+.missing-persons-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.missing-person-card {
+  border: none; /* Remove border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 1rem;
+  width: 240px; /* Increased width by 20% */
+  text-align: center;
+}
+
+.card-img {
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Align items with space between */
+    margin-top: 20px; /* Optional: Add some margin on top */
+}

@@ -1,0 +1,16 @@
+/* Styles for the pages */
+.login-page, .signup-page, .account-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+input {
+  margin-bottom: 1rem;
+  width: 100%;
+}
