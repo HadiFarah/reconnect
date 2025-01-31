@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f0f0f0; /* Light background */
+    border-bottom: 1px solid #eaeaea;
+}
+
+.logo-container {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.home-button {
+    margin-right: 1rem; /* Space between Home and Menu */
+}
+
+.add-button {
+    margin-left: 59rem; /* Increased space between Menu and Add Missing Person */
+    margin-top: 0.55rem;
+}
+
+.menu {
+    margin-left: auto; /* Push menu to the far right */
+}
+
+.menu-button {
+    background-color: #76c7c0; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px; /* Padding for button */
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute; /* Position it absolutely */
+    background-color: white; /* White background for contrast */
+    border: 1px solid #eaeaea; /* Light border */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    z-index: 1000; /* Ensure it appears above other elements */
+    padding: 10px; /* Padding for the dropdown items */
+    width: 115px; /* Set a specific width for the dropdown */
+    left: 90%; /* Align dropdown to the left */
+    text-align: right; /* Align text to the right */
+}
+
+.dropdown-menu a {
+    display: block; /* Make links block elements */
+    padding: 8px 12px; /* Padding for links */
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Text color */
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+}

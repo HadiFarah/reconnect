@@ -1,0 +1,19 @@
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #76c7c0; /* Updated color for a modern look */
+    color: white;
+    border: none;
+    border-radius: 50%; /* Keep rounded */
+    width: 100px; /* Increased size */
+    height: 100px; /* Increased size */
+    font-size: 18px; /* Increased font size */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Added transform for hover effect */
+}
+
+.floating-button:hover {
+    background-color: #64b3a1; /* Lighter shade on hover */
+    transform: scale(1.1); /* Slightly scale up on hover */
+}

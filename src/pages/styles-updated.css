@@ -1,0 +1,142 @@
+.login-page, .signup-page, .account-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #ffffff; /* Change background to white */
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif; /* Modern font */
+}
+
+input {
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 10px; /* Add padding for better touch targets */
+  border: 1px solid #ccc; /* Subtle border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Styles for the search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Space below the search bar */
+}
+
+.search-bar input {
+  flex: 1; /* Take up available space */
+  padding: 10px; /* Padding for input */
+  border: 1px solid #ccc; /* Subtle border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Consistent font size */
+}
+
+.search-button {
+  background-color: #76c7c0; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 11px 17px; /* Padding for button */
+  cursor: pointer;
+  margin-left: 10px; /* Space between input and button */
+}
+
+.search-button:hover {
+  background-color: #64b3a1; /* Lighter shade on hover */
+}
+
+/* Styles for the missing persons list */
+.missing-persons-list {
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 1rem; /* Space between cards */
+  padding: 1rem; /* Padding around the grid */
+}
+
+/* Additional styles for the upload button */
+.upload-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #76c7c0; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 50%; /* Rounded button */
+  width: 60px; /* Size of the button */
+  height: 60px; /* Size of the button */
+  font-size: 16px; /* Font size */
+  cursor: pointer;
+}
+
+/* Custom styles for the Calendar component */
+.react-calendar {
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #76c7c0; /* Light background color for a minimalistic look */
+}
+
+.react-calendar__month-view__days {
+  margin: 0; /* Remove margin */
+}
+
+.react-calendar__tile {
+  max-width: 100%; /* Ensure tiles fit within the calendar */
+  padding: 5px; /* Reduced padding for a cleaner look */
+  border-radius: 5px; /* Rounded corners for tiles */
+  transition: background-color 0.2s; /* Smooth transition for hover effect */
+  color: white; /* Set all dates to white */
+}
+
+.react-calendar__tile:hover {
+  background-color: #76c7c0; /* Light gray on hover for subtle effect */
+}
+
+.react-calendar__tile--active {
+  background-color: #76c7c0; /* Use green for the active tile */
+  color: white; /* Text color for active tile */
+}
+
+.react-calendar__tile--now {
+  background-color: #b2ebf2; /* Soft highlight for today's date */
+  border-radius: 5px; /* Rounded corners for today's date */
+}
+
+/* New styles for Add Missing Person page */
+.add-person-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9f9f9; /* Light background for the form */
+}
+
+.add-person-page input {
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-person-page button {
+  background-color: #76c7c0; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 11px 17px;
+  cursor: pointer;
+  margin-top: 1rem; /* Space above the button */
+}
+
+.add-person-page .react-calendar {
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.add-person-page .react-calendar__tile:hover {
+  background-color: #f0f0f0; /* Light gray on hover */
+}
